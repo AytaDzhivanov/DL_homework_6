@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Айта Дживанов"
+  },
+  "text": {
+    "more": "Данный граф представляет собой связи между друзьями в контакте. Каждый узел соответствует одному другу. Каждый цвет обозначает определенную группу друзей, которые в основном выделяются в четыре большие группы: друзья из школы, друзья из родного города, друзья по предыдущему месту обучения и друзья по текущему месту обучения. Наибольшее количество связей у друзей из родного города. Единичные точки - это друзья, которые никак не связаны с другими и соответственно не попадающие под определенное сообщество.",
+    "intro": "Граф, показывающий связи между друзьями в контакте.",
+    "title": "Связи между друзьями в контакте"
+  },
+  "legend": {
+    "edgeLabel": "Связь между друзьями в контакте",
+    "colorLabel": "Сообщество",
+    "nodeLabel": "Друг в контакте"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
